@@ -1,11 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos globais */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  margin: 0;
-  padding: 0;
-  text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
-  color: #333;
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+button {
+    cursor: pointer;
 }
